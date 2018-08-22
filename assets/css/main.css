@@ -2296,7 +2296,41 @@ Cover
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
     font-size: 14px;
   }
-
+}
+@media (max-width: 767px) and (max-width: 360px) {
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
+    font-size: 16px;
+  }
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
+    font-size: 42px;
+  }
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) and (max-width: 320px) {
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
+    font-size: 14px;
+  }
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
+    font-size: 40px;
+  }
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) and (max-width: 375px) {
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
+    font-size: 16px;
+  }
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
+    font-size: 42px;
+  }
+  .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
   .breadcrumbs ul {
     padding: 5px 30px;
   }
